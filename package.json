@@ -1,0 +1,25 @@
+{
+  "name": "electron-auto-update-example",
+  "version": "1.0.0",
+  "description": "Check app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.2",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.9"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/adilpasha/electron.git"
+  }
+}
